@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinity</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <div class="pokedevs">
+            <div class="cartoes-pokedev">
+                <div class="cartao-pokedev tipo-eletrico aberto" id="cartao-kevin">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Kevin</h2>
+                            <span>#001</span>
+                        </div>
+
+                        <span class="tipo">Mago do deserto</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/kevin.jpg" alt="Kevin" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+
+                            <p>
+                                Kevin nao sabe muito sobre seu passado, as poucas coisas que sabem foram contadas na espoca que viveu no egito cirado por seu tio... Kevin foi um projeto de Atena, Seth e Asmodeus, tendo um pai ausente sendo um crimoso e tendo uma pessima relaçao com sua mae, Kevin sai do egito querendo conhecer o mundo e volta anos depois como o messias do povo do deserto
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-tenebris" id="cartao-vidal">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Vidal</h2>
+                            <span>#003</span>
+                        </div>
+
+                        <span class="tipo">Tenebris</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/vidal.jpeg" alt="Vidal" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>
+                                Vidal tenebris, filho da Nyx com Aphoma, depois da grande revoluçao tenebris foi adotado por Tanatus e cresceu no vale da morte, hoje vidal busca pelo seu passado, em uma jornada de alto conhecimento
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-tenebris" id="cartao-vinicius">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Vinicius</h2>
+                            <span>#022</span>
+                        </div>
+
+                        <span class="tipo">Tenebris</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/vinicius.jpeg" alt="Vinicius" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>
+                                Vinicius teve uma historia complicada, pouco se sabe alem de varios boatos que rodam por todo o universo tem pessoas que dizem que ele e um maçon, o pouco que se sabe com certeza e que antes do seu despertar acarno ele vivia no reino de Hecate sendo criado como um filho, mas de seu despertar buscou encontrar Ananke sua mae... hj os dois tem uma uniao muito forte, Viniciu ganhou seu lugar ao lado da soberana e almeja unir todos os tenebris de sua maneira
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokedev tipo-fada" id="cartao-devlypuff">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Devlypuff</h2>
+                            <span>#062</span>
+                        </div>
+
+                        <span class="tipo">Fada</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/devlypuff.png" alt="Devlypuff" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>
+                                A expressão “trabalhe enquanto eles dormem” poderia ter sido
+                                facilmente criada por este pokedev. Afinal, ele tem o dom de
+                                codar por horas e horas, madrugada adentro, regado a muito
+                                café e energéticos. Sua dedicação é tão intensa que, enquanto
+                                a maioria das pessoas está descansando, ele está imerso em
+                                linhas de código, resolvendo problemas e criando soluções.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="pokedev ativo" id="kevin">
+                        <img src="./src/imagens/kevin.jpg" alt="Kevin" />
+                        <span>Kevin</span>
+
+                    <li class="pokedev" id="vidal">
+                        <img src="./src/imagens/vidal.jpeg" alt="Vidal" />
+                        <span>Vidal</span>
+                    </li>
+                    <li class="pokedev" id="vinicius">
+                        <img src="./src/imagens/vinicius.jpeg" alt="Vinicius" />
+                        <span>Vinicius</span>
+
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
